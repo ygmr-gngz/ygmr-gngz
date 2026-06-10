@@ -1,8 +1,6 @@
 <div align="center">
 
-# 👋 Merhaba, ben Yağmur Güngöz
-
-### 🤖 Applied AI Engineer | LLM & RAG Sistemleri | Konuşma Tabanlı Yapay Zekâ
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&height=60&lines=%F0%9F%91%8B+Merhaba%2C+ben+Ya%C4%9Fmur+G%C3%BCng%C3%B6z;%F0%9F%A4%96+Applied+AI+Engineer;%F0%9F%94%8E+LLM+%26+RAG+Sistemleri;%F0%9F%92%AC+Konu%C5%9Fma+Tabanl%C4%B1+Yapay+Zek%C3%A2)](https://github.com/ygmr-gngz)
 
 *"Gerçek dünya problemlerini çözen, üretime hazır yapay zekâ sistemleri geliştiriyorum."*
 
