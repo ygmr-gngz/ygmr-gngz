@@ -44,7 +44,7 @@ yagmur = {
 ![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=databricks&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=flat-square&logo=openai&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square&logo=scikitlearn&logoColor=white)
-![Prophet](https://img.shields.io/badge/Prophet-0668E1?style=flat-square&logo=meta&logoColor=white)
+![NeuralProphet](https://img.shields.io/badge/NeuralProphet-0668E1?style=flat-square&logo=meta&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![W&B](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
 
@@ -78,10 +78,10 @@ yagmur = {
 
 | Proje | Açıklama | Teknolojiler |
 |-------|----------|--------------|
-| 🔍 **[OpenReviewCore](https://github.com/ygmr-gngz)** | Statik analiz, makine öğrenmesi ve LLM açıklamalarını birleştiren, yapay zekâ destekli **kod risk analiz platformu** | `FastAPI` `XGBoost` `OpenAI API` `Docker` `GitHub Actions` |
+| 🔍 **[OpenReviewCore](https://github.com/ygmr-gngz)** | Statik analiz araçlarını (Ruff, Radon, Bandit) **LLM açıklamaları ve orkestrasyon katmanıyla** birleştiren kod risk analiz platformu | `FastAPI` `OpenAI API` `Ruff` `Bandit` `PostgreSQL` `Docker` `GitHub Actions` |
 | 🏗 **BuildRiskAnalyst** | İnşaat projeleri için hibrit **LLM + RAG + ML karar destek sistemi** | `LangChain` `FAISS` `pgvector` `XGBoost` `Streamlit` |
-| 📈 **KurAI** | Prophet modellerini LLM tabanlı iş öngörüleriyle birleştiren **zaman serisi tahminleme platformu** | `Python` `Prophet` `PostgreSQL` `LLM` |
-| 💬 **Irfmak AI Assistant** | Oturum hafızalı, modüler mimarili, **üretimde çalışan konuşma tabanlı AI** chat widget'ı | `Node.js` `SQLite` `REST API` `JavaScript` |
+| 📈 **KurAI** | TCMB (Türkiye Cumhuriyet Merkez Bankası) verileriyle çalışmayı hedefleyen, **NeuralProphet tabanlı döviz kuru tahminleme servisi** — ekip projesi 👥 | `FastAPI` `NeuralProphet` `pandas` `httpx` `Docker` |
+| 💬 **Irfmak AI Assistant** | Üretimde çalışan **AI chat asistanı + içerik otomasyon sistemi** — oturum hafızalı chat widget'ı ve otomatik video üretim/yayınlama pipeline'ı | `Node.js` `OpenAI` `SQLite` `REST API` `HeyGen` `YouTube API` |
 
 ---
 
