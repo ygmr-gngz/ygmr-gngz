@@ -1,116 +1,148 @@
-<svg
-  width="1200"
-  height="360"
-  viewBox="0 0 1200 360"
-  xmlns="http://www.w3.org/2000/svg"
-  role="img"
-  aria-labelledby="title description"
->
-  <title id="title">Yağmur Güngöz GitHub profil kapağı</title>
-
-  <desc id="description">
-    Yapay zekâ, LLM sistemleri ve Computer Vision alanlarını temsil eden koyu temalı profil kapağı.
-  </desc>
+<svg width="1200" height="420" viewBox="0 0 1200 420"
+     xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080b12" />
-      <stop offset="50%" stop-color="#101827" />
-      <stop offset="100%" stop-color="#111827" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#07101F"/>
     </linearGradient>
 
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
 
     <filter id="softGlow">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-
+      <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <style>
+      .pulse {
+        animation: pulse 2.6s ease-in-out infinite alternate;
+      }
+
+      .pulse2 {
+        animation: pulse 3.2s ease-in-out infinite alternate;
+      }
+
+      .line {
+        stroke-dasharray: 10 12;
+        animation: flow 8s linear infinite;
+      }
+
+      @keyframes pulse {
+        from {
+          opacity: 0.35;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes flow {
+        from {
+          stroke-dashoffset: 0;
+        }
+
+        to {
+          stroke-dashoffset: -220;
+        }
+      }
+    </style>
   </defs>
 
-  <rect
-    width="1200"
-    height="360"
-    rx="28"
-    fill="url(#background)"
-  />
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
 
-  <circle
-    cx="920"
-    cy="170"
-    r="240"
-    fill="url(#glow)"
-  />
+  <circle cx="975" cy="205" r="285" fill="url(#glow)"/>
 
-  <g
-    stroke="#38bdf8"
-    stroke-opacity="0.35"
-    stroke-width="1.5"
-  >
-    <line x1="775" y1="85" x2="875" y2="135" />
-    <line x1="875" y1="135" x2="990" y2="85" />
-    <line x1="875" y1="135" x2="950" y2="230" />
-    <line x1="950" y1="230" x2="1060" y2="175" />
-    <line x1="775" y1="85" x2="810" y2="220" />
-    <line x1="810" y1="220" x2="950" y2="230" />
+  <g stroke="#38BDF8"
+     stroke-opacity="0.35"
+     stroke-width="1.4"
+     class="line">
+
+    <line x1="760" y1="80" x2="855" y2="135"/>
+    <line x1="855" y1="135" x2="960" y2="75"/>
+    <line x1="855" y1="135" x2="920" y2="225"/>
+    <line x1="920" y1="225" x2="1035" y2="165"/>
+    <line x1="1035" y1="165" x2="1110" y2="250"/>
+    <line x1="920" y1="225" x2="1000" y2="320"/>
+    <line x1="760" y1="80" x2="790" y2="235"/>
+    <line x1="790" y1="235" x2="920" y2="225"/>
+    <line x1="790" y1="235" x2="840" y2="330"/>
+    <line x1="840" y1="330" x2="1000" y2="320"/>
   </g>
 
-  <g
-    fill="#e0f2fe"
-    filter="url(#softGlow)"
-  >
-    <circle cx="775" cy="85" r="5" />
-    <circle cx="875" cy="135" r="7" />
-    <circle cx="990" cy="85" r="5" />
-    <circle cx="810" cy="220" r="5" />
-    <circle cx="950" cy="230" r="7" />
-    <circle cx="1060" cy="175" r="5" />
+  <g fill="#E0F2FE" filter="url(#softGlow)">
+    <circle cx="760" cy="80" r="5" class="pulse"/>
+    <circle cx="855" cy="135" r="7" class="pulse2"/>
+    <circle cx="960" cy="75" r="5" class="pulse"/>
+    <circle cx="920" cy="225" r="8" class="pulse2"/>
+    <circle cx="1035" cy="165" r="6" class="pulse"/>
+    <circle cx="1110" cy="250" r="5" class="pulse2"/>
+    <circle cx="790" cy="235" r="6" class="pulse"/>
+    <circle cx="840" cy="330" r="5" class="pulse2"/>
+    <circle cx="1000" cy="320" r="7" class="pulse"/>
   </g>
 
-  <text
-    x="75"
-    y="135"
-    fill="#ffffff"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="54"
-    font-weight="700"
-  >
+  <text x="72"
+        y="120"
+        fill="#94A3B8"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        letter-spacing="4">
+    HELLO, I AM
+  </text>
+
+  <text x="68"
+        y="188"
+        fill="#FFFFFF"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="700">
     Yağmur Güngöz
   </text>
 
-  <text
-    x="78"
-    y="188"
-    fill="#7dd3fc"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="25"
-    font-weight="600"
-  >
+  <text x="72"
+        y="239"
+        fill="#7DD3FC"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24"
+        font-weight="600">
     AI Engineer · LLM Systems · Computer Vision
   </text>
 
-  <text
-    x="78"
-    y="235"
-    fill="#cbd5e1"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="20"
-  >
-    Building intelligent systems from research to real-world products.
+  <text x="72"
+        y="291"
+        fill="#CBD5E1"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19">
+    Building intelligent systems from research to production.
   </text>
 
-  <rect
-    x="78"
-    y="276"
-    width="285"
-    height="3"
-    rx="2"
-    fill="#38bdf8"
-  />
+  <rect x="72"
+        y="334"
+        width="415"
+        height="4"
+        rx="2"
+        fill="url(#accent)"/>
+
+  <text x="72"
+        y="375"
+        fill="#64748B"
+        font-family="monospace"
+        font-size="16">
+    Python · FastAPI · PyTorch · OpenAI · Next.js
+  </text>
 </svg>
