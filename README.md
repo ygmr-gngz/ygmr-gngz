@@ -70,35 +70,31 @@ Muhasebe danışmanlığı ve eğitim süreçlerini tek panelde birleştiren ço
 
 <td width="50%" valign="top">
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-
-</td>
-
-<td width="50%" valign="top">
-
 ### AI Product Engineering
 
-Yapay zekâ modellerini yalnızca demo olarak bırakmayıp API, kullanıcı arayüzü, veri tabanı ve deployment katmanlarıyla çalışan ürünlere dönüştürüyorum.
+Yapay zekâ modellerini yalnızca demo seviyesinde bırakmayıp API, kullanıcı arayüzü, veri tabanı ve deployment katmanlarıyla çalışan ürünlere dönüştürüyorum.
 
 **Odak alanlarım**
 
 - LLM ve RAG mimarileri
 - Multi-agent sistemler
-- FastAPI servisleri
+- FastAPI tabanlı servisler
 - Modern web arayüzleri
-- Veri tabanı entegrasyonları
-- Deployment ve gözlemleme
+- Veri tabanı ve vektör arama entegrasyonları
+- Yapay zekâ destekli içerik otomasyonları
+- Deployment ve sistem gözlemleme
 
-`FastAPI` `Next.js` `Docker` `PostgreSQL` `MLOps`
+`Python` `FastAPI` `Next.js` `OpenAI` `PostgreSQL` `Docker`
 
 </td>
 </tr>
 </table>
+
+<img
+  src="./assets/divider.svg"
+  width="100%"
+  alt="Bölüm ayırıcı"
+>
 
 <img
   src="./assets/divider.svg"
