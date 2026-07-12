@@ -70,41 +70,12 @@ Muhasebe danışmanlığı ve eğitim süreçlerini tek panelde birleştiren ço
 
 <td width="50%" valign="top">
 
-### Turkish MiniGPT Lab
-
-Türkçe küçük ölçekli bir dil modelinin veri hazırlığından değerlendirmeye kadar bütün yaşam döngüsünü incelediğim araştırma projesi.
-
-**Araştırma adımları**
-
-- Veri toplama ve temizleme
-- Train ve validation ayrımı
-- Tokenizer corpus hazırlama
-- BPE tokenizer geliştirme
-- Transformer model eğitimi
-- Metrik ve hata analizi
-
-`Python` `PyTorch` `Transformer` `BPE` `NLP`
-
 </td>
 </tr>
 
 <tr>
 <td width="50%" valign="top">
 
-### AI Safety Vision
-
-Şantiye ve lojistik alanlarındaki güvenlik risklerini gerçek zamanlı görüntü analiziyle algılayan Computer Vision sistemi.
-
-**Algılama senaryoları**
-
-- KKD kontrolü
-- Tehlikeli bölge ihlali
-- Forklift–personel yakınlık riski
-- Çalışan ve araç takibi
-- Yangın ve düşme riski
-- Kör nokta ve güvenli mesafe analizi
-
-`Python` `OpenCV` `YOLO` `Object Detection`
 
 </td>
 
