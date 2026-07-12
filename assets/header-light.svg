@@ -1,1 +1,105 @@
 
+<svg
+  width="1200"
+  height="360"
+  viewBox="0 0 1200 360"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Yağmur Güngöz GitHub profil kapağı</title>
+
+  <desc id="description">
+    Yapay zekâ, LLM sistemleri ve Computer Vision alanlarını temsil eden açık temalı profil kapağı.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect
+    width="1200"
+    height="360"
+    rx="28"
+    fill="url(#background)"
+  />
+
+  <circle
+    cx="920"
+    cy="170"
+    r="240"
+    fill="url(#glow)"
+  />
+
+  <g
+    stroke="#0284c7"
+    stroke-opacity="0.4"
+    stroke-width="1.5"
+  >
+    <line x1="775" y1="85" x2="875" y2="135" />
+    <line x1="875" y1="135" x2="990" y2="85" />
+    <line x1="875" y1="135" x2="950" y2="230" />
+    <line x1="950" y1="230" x2="1060" y2="175" />
+    <line x1="775" y1="85" x2="810" y2="220" />
+    <line x1="810" y1="220" x2="950" y2="230" />
+  </g>
+
+  <g fill="#0369a1">
+    <circle cx="775" cy="85" r="5" />
+    <circle cx="875" cy="135" r="7" />
+    <circle cx="990" cy="85" r="5" />
+    <circle cx="810" cy="220" r="5" />
+    <circle cx="950" cy="230" r="7" />
+    <circle cx="1060" cy="175" r="5" />
+  </g>
+
+  <text
+    x="75"
+    y="135"
+    fill="#0f172a"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="700"
+  >
+    Yağmur Güngöz
+  </text>
+
+  <text
+    x="78"
+    y="188"
+    fill="#0369a1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="25"
+    font-weight="600"
+  >
+    AI Engineer · LLM Systems · Computer Vision
+  </text>
+
+  <text
+    x="78"
+    y="235"
+    fill="#475569"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+  >
+    Building intelligent systems from research to real-world products.
+  </text>
+
+  <rect
+    x="78"
+    y="276"
+    width="285"
+    height="3"
+    rx="2"
+    fill="#0284c7"
+  />
+</svg>
