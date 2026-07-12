@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <a href="LINKEDIN_ADRESINI_BURAYA_YAZ">
+  <a href="in/yağmur-güngöz">
     <img src="https://img.shields.io/badge/LinkedIn-Yağmur%20Güngöz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 
