@@ -7,11 +7,11 @@
   aria-labelledby="title desc"
 >
   <title id="title">
-    GitHub profile summary
+    ygmr-gngz GitHub profile summary
   </title>
 
   <desc id="desc">
-    GitHub Actions ilk çalıştırıldığında otomatik güncellenecek özet kartları.
+    GitHub API kullanılarak otomatik güncellenen profil özet kartları.
   </desc>
 
   <defs>
@@ -84,7 +84,7 @@
     text-anchor="end"
     class="note"
   >
-    Run Actions → Update profile statistics
+    @ygmr-gngz · automatically updated
   </text>
 
   <rect
@@ -132,7 +132,7 @@
   </text>
 
   <text x="66" y="146" class="value">
-    —
+    6
   </text>
 
   <text x="342" y="101" class="label">
@@ -140,7 +140,7 @@
   </text>
 
   <text x="342" y="146" class="value">
-    —
+    0
   </text>
 
   <text x="618" y="101" class="label">
@@ -148,7 +148,7 @@
   </text>
 
   <text x="618" y="146" class="value">
-    —
+    18
   </text>
 
   <text x="894" y="101" class="label">
@@ -156,7 +156,7 @@
   </text>
 
   <text x="894" y="146" class="value">
-    Loading
+    Python
   </text>
 
   <rect
