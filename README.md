@@ -38,11 +38,7 @@
   </strong>
 </p>
 
-<img
-  src="./assets/divider.svg"
-  width="100%"
-  alt="Bölüm ayırıcı"
->
+<img src="./assets/divider.svg" width="100%" alt="Bölüm ayırıcı" />
 
 ## Ne geliştiriyorum?
 
