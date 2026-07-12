@@ -94,59 +94,40 @@ Yapay zekâ modellerini yalnızca demo seviyesinde bırakmayıp API, kullanıcı
   src="./assets/divider.svg"
   width="100%"
   alt="Bölüm ayırıcı"
->
+/>
 
-<img
-  src="./assets/divider.svg"
-  width="100%"
-  alt="Bölüm ayırıcı"
->
-
-## Teknoloji alanlarım
+## Teknoloji Alanlarım
 
 <img
   src="./assets/skills.svg"
   width="100%"
   alt="Yağmur Güngöz teknoloji alanları"
->
+/>
 
-## Sistem terminali
+<img
+  src="./assets/divider.svg"
+  width="100%"
+  alt="Bölüm ayırıcı"
+/>
+
+## Sistem Terminali
 
 <img
   src="./assets/terminal.svg"
   width="100%"
   alt="Animasyonlu geliştirici terminali"
->
+/>
 
-## GitHub özeti
+<img
+  src="./assets/divider.svg"
+  width="100%"
+  alt="Bölüm ayırıcı"
+/>
+
+## GitHub Özeti
 
 <img
   src="./assets/stats.svg"
   width="100%"
   alt="Otomatik güncellenen GitHub özeti"
->
-
-<details>
-<summary><strong>Çalışma yaklaşımım</strong></summary>
-
-<br>
-
-```yaml
-approach:
-  research:
-    - problemi ve kullanıcı ihtiyacını anlamak
-    - doğru veri ve model yaklaşımını seçmek
-    - ölçülebilir değerlendirme kriterleri belirlemek
-
-  architecture:
-    - ölçeklenebilir servis sınırları kurmak
-    - güvenli veri ve ajan akışları tasarlamak
-    - sistem bileşenlerini gözlemlenebilir hâle getirmek
-
-  product:
-    - modeli API ve kullanıcı arayüzüyle birleştirmek
-    - değerlendirme ve hata analizi mekanizmaları eklemek
-    - gerçek kullanıcı deneyimini merkeze almak
-
-  goal:
-    - araştırmadan üretime çalışan yapay zekâ ürünleri geliştirmek
+/>
