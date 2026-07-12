@@ -1,1 +1,171 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="245"
+  viewBox="0 0 1200 245"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">
+    GitHub profile summary
+  </title>
 
+  <desc id="desc">
+    GitHub Actions ilk çalıştırıldığında otomatik güncellenecek özet kartları.
+  </desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080c14"/>
+      <stop offset="1" stop-color="#0d1725"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#24d3ee"/>
+      <stop offset=".5" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#ff4f9a"/>
+    </linearGradient>
+
+    <style>
+      text {
+        font-family: Inter, "Segoe UI", Arial, sans-serif;
+      }
+
+      .label {
+        fill: #7f93ae;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+      }
+
+      .value {
+        fill: #f7fbff;
+        font-size: 32px;
+        font-weight: 800;
+      }
+
+      .note {
+        fill: #71849d;
+        font-size: 13px;
+      }
+    </style>
+  </defs>
+
+  <rect
+    width="1200"
+    height="245"
+    rx="24"
+    fill="url(#bg)"
+  />
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="243"
+    rx="23"
+    fill="none"
+    stroke="#293950"
+  />
+
+  <text
+    x="42"
+    y="44"
+    fill="#f5f8ff"
+    font-size="20"
+    font-weight="800"
+  >
+    GitHub Activity Snapshot
+  </text>
+
+  <text
+    x="1158"
+    y="44"
+    text-anchor="end"
+    class="note"
+  >
+    Run Actions → Update profile statistics
+  </text>
+
+  <rect
+    x="42"
+    y="68"
+    width="258"
+    height="118"
+    rx="18"
+    fill="#0d1827"
+    stroke="#263a52"
+  />
+
+  <rect
+    x="318"
+    y="68"
+    width="258"
+    height="118"
+    rx="18"
+    fill="#0d1827"
+    stroke="#263a52"
+  />
+
+  <rect
+    x="594"
+    y="68"
+    width="258"
+    height="118"
+    rx="18"
+    fill="#0d1827"
+    stroke="#263a52"
+  />
+
+  <rect
+    x="870"
+    y="68"
+    width="288"
+    height="118"
+    rx="18"
+    fill="#0d1827"
+    stroke="#263a52"
+  />
+
+  <text x="66" y="101" class="label">
+    PUBLIC REPOSITORIES
+  </text>
+
+  <text x="66" y="146" class="value">
+    —
+  </text>
+
+  <text x="342" y="101" class="label">
+    TOTAL STARS
+  </text>
+
+  <text x="342" y="146" class="value">
+    —
+  </text>
+
+  <text x="618" y="101" class="label">
+    FOLLOWERS
+  </text>
+
+  <text x="618" y="146" class="value">
+    —
+  </text>
+
+  <text x="894" y="101" class="label">
+    TOP LANGUAGE
+  </text>
+
+  <text x="894" y="146" class="value">
+    Loading
+  </text>
+
+  <rect
+    x="42"
+    y="211"
+    width="1116"
+    height="3"
+    rx="1.5"
+    fill="url(#accent)"
+    opacity=".78"
+  />
+</svg>
