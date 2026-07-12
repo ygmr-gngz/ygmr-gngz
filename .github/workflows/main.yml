@@ -1,1 +1,19 @@
+name: Profile README
 
+on:
+  workflow_dispatch:
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check profile files
+        run: |
+          test -f README.md
+          test -f assets/header-dark.svg
+          test -f assets/header-light.svg
+          echo "Profile files are ready."
